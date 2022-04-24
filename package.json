@@ -1,0 +1,26 @@
+{
+  "name": "zoecli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ivo": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "ivocli",
+    "ivo"
+  ],
+  "author": "ivozoe",
+  "license": "MIT",
+  "homepage": "https://github.com/ivozoe",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.7",
+    "open": "^8.4.0"
+  }
+}
